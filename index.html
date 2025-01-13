@@ -104,14 +104,15 @@
     color: #dc3545; /* Red for offline */
     }
     
-    .user-info .last-message {
+.user-info .last-message {
     font-size: 14px;
     color: #555;
     margin-top: 5px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    }
+    width: 200px; /* প্রস্থ নির্ধারণ */
+    overflow: hidden; /* অতিরিক্ত টেক্সট লুকানোর জন্য */
+    text-overflow: ellipsis; /* ডট ডট দেখানোর জন্য */
+    white-space: nowrap; /* এক লাইনে সীমাবদ্ধ রাখার জন্য */
+}
     
     .buttons {
     width: 100%;
